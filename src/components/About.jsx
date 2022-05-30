@@ -10,9 +10,9 @@ const About = () => {
         </h2>
         <div className='text-center text-xl pt-3'>
           <p className='font-bold'>Thomas</p>
-          <p>Studying Computer Science at <a className='hover:text-[#ffffff]' href='https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/'>Lancaster University</a></p>
+          <p>Studying Computer Science at <a className='hover:text-[#5cd8bd]' href='https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/'>Lancaster University</a></p>
         </div>
-        <Link to='contact' smooth={true} duration={600}>
+        <Link className='display-nothing' to='contact' smooth={true} duration={600}>
           <a href="#" class="arrow-container1">
             <div class="arrow1 animate-bounce w-6 h-6"></div>
           </a>

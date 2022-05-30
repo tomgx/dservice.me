@@ -16,10 +16,10 @@ const Navbar = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center bg-[#cacaca60] text-[#000000]'>
       <Link to='home' smooth={true} duration={600}>
         <div className='cursor-pointer'>
-        <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
+          <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
         </div>
-      </Link> 
-      
+      </Link>
+
       {/* menu */}
       <ul className='font-bold hidden md:flex'>
         <Link to='home' smooth={true} duration={600}>
@@ -40,7 +40,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile menu icon */}
-      <div onClick={handleClick} className='mobile-view392px md:hidden z-10 pr-5'>
+      <div onClick={handleClick} className='mobile-view392px mobile-view320px md:hidden z-10 pr-5'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
