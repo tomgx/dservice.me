@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dservice.me/static/css/main.a4c6a363.css",
+    "main.js": "/dservice.me/static/js/main.ff323cd7.js",
+    "static/media/dservice-logo.png": "/dservice.me/static/media/dservice-logo.e5d1c5a9a5284758c374.png",
+    "index.html": "/dservice.me/index.html",
+    "main.a4c6a363.css.map": "/dservice.me/static/css/main.a4c6a363.css.map",
+    "main.ff323cd7.js.map": "/dservice.me/static/js/main.ff323cd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4c6a363.css",
+    "static/js/main.ff323cd7.js"
+  ]
+}
