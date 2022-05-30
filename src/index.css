@@ -50,9 +50,11 @@ html {
   }
   .arrow-container:hover .arrow:before {
     transform: translate(-50%, -50%) rotateZ(-50deg);
+    background: #000000;
   }
   .arrow-container:hover .arrow:after {
     transform: translate(-50%, -50%) rotateZ(50deg);
+    background: #000000;
   }
   
   .arrow {
@@ -77,6 +79,57 @@ html {
     transform: translate(-50%, -50%) rotateZ(55deg);
   }
   .arrow:nth-child(1) {
+    opacity: 0.3;
+    top: 35%;
+  }
+
+  /* arrow indicator 2 */
+  .arrow-container1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 102.6%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+  .arrow-container1:hover {
+    cursor: pointer;
+  }
+  .arrow-container1:hover .arrow1 {
+    top: 50%;
+  }
+  .arrow-container1:hover .arrow1:before {
+    transform: translate(-50%, -50%) rotateZ(-50deg);
+    background: #000000;
+  }
+  .arrow-container1:hover .arrow1:after {
+    transform: translate(-50%, -50%) rotateZ(50deg);
+    background: #000000;
+  }
+  
+  .arrow1 {
+    position: absolute;
+    left: 50%;
+    transition: all 0.4s ease;
+  }
+  .arrow1:before, .arrow1:after {
+    transition: all 0.4s ease;
+    content: "";
+    display: block;
+    position: absolute;
+    transform-origin: bottom right;
+    background: #EEEEEE;
+    width: 2px;
+    height: 30px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) rotateZ(-55deg);
+  }
+  .arrow1:after {
+    transform-origin: bottom left;
+    transform: translate(-50%, -50%) rotateZ(55deg);
+  }
+  .arrow1:nth-child(1) {
     opacity: 0.3;
     top: 35%;
   }

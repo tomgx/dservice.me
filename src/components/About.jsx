@@ -9,9 +9,14 @@ const About = () => {
           About
         </h2>
         <div className='text-center text-xl py-5'>
-        <p className='font-bold'>Thomas</p>
-      <p>Studying Computer Science at Lancaster University</p>
-      </div>
+          <p className='font-bold'>Thomas</p>
+          <p>Studying Computer Science at Lancaster University</p>
+        </div>
+        <Link to='contact' smooth={true} duration={600}>
+          <a href="#" class="arrow-container1">
+            <div class="arrow1 animate-bounce w-6 h-6"></div>
+          </a>
+        </Link>
       </div>
     </div>
   );
