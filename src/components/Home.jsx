@@ -11,11 +11,13 @@ const Home = () => {
            dservice
            </a> 
         </h2>
+        <div className='text-xs sm:text-base'>
         <p className='text-center font-bold pl-56'>
-         <a className='cursor-default text-[#acacac] hover:text-[#646464]'>
+         <a className='mobile-view640px mobile-view392px cursor-default text-[#acacac] hover:text-[#646464]'>
            tgreen
            </a> 
           </p>
+          </div>
         <div className='self-center'>
         </div>
         
