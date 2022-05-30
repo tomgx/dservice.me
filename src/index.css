@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Quicksand];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+
+/* arrow indicator */
+html {
+    height: 190%;
+  }
+  
+  body {
+    background: #000;
+    position: relative;
+    height: 100%;
+  }
+  
+  .arrow-container {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+  .arrow-container:hover {
+    cursor: pointer;
+  }
+  .arrow-container:hover .arrow {
+    top: 50%;
+  }
+  .arrow-container:hover .arrow:before {
+    transform: translate(-50%, -50%) rotateZ(-50deg);
+  }
+  .arrow-container:hover .arrow:after {
+    transform: translate(-50%, -50%) rotateZ(50deg);
+  }
+  
+  .arrow {
+    position: absolute;
+    left: 50%;
+    transition: all 0.4s ease;
+  }
+  .arrow:before, .arrow:after {
+    transition: all 0.4s ease;
+    content: "";
+    display: block;
+    position: absolute;
+    transform-origin: bottom right;
+    background: #646464;
+    width: 2px;
+    height: 30px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) rotateZ(-55deg);
+  }
+  .arrow:after {
+    transform-origin: bottom left;
+    transform: translate(-50%, -50%) rotateZ(55deg);
+  }
+  .arrow:nth-child(1) {
+    opacity: 0.3;
+    top: 35%;
+  }
+ 
+
+
