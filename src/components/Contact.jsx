@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 
 const Contact = () => {
   return (
@@ -10,6 +11,15 @@ const Contact = () => {
         <h2 className='text-center text-xl pt-3 text-[#EEEEEE]'>
         <a href="mailto:t.green7@lancaster.ac.uk">t.green7@lancaster.ac.uk</a>
         </h2>
+        <div className='animate-bounce relative top-96 text-center'>
+        
+        <p>
+        <Link to='home' smooth={true} duration={600}>
+          <a className='cursor-pointer text-[#EEEEEE] hover:text-[#5cd8bd]'>home</a>
+          </Link>
+          </p>
+        
+        </div>
     </div>
     </div>
   )
