@@ -67,6 +67,7 @@
 /* arrow indicator */
 html {
   height: 190%;
+  overflow-x: hidden;
 }
 
 body {

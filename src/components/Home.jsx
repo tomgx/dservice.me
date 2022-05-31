@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#f5f4f4]'>
+    <div name='home' className='truncate w-full h-screen bg-[#f5f4f4]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <h2 className='text-center text-4xl sm:text-7xl font-bold'>
