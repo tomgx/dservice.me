@@ -3,12 +3,12 @@ import { Link } from 'react-scroll';
 
 const About = () => {
   return (
-    <div name='about' className='truncate w-full h-screen bg-[#504f4f] text-gray-300'>
+    <div name='about' className='overflow-x-auto w-full h-screen bg-[#504f4f] text-gray-300'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <h2 className='text-center text-4xl sm:text-5xl font-bold text-[#EEEEEE]'>
           about
         </h2>
-        <div className='text-center text-xl pt-3'>
+        <div className=' text-center sm:text-xl text-base pt-3'>
           <p className='font-bold'>Thomas</p>
           <p>Studying Computer Science at <a className='hover:text-[#5cd8bd]' href='https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/'>Lancaster University</a></p>
         </div>
