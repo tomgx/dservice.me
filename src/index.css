@@ -22,30 +22,9 @@
   }
 }
 
-@media screen and (max-width:640px) {
-  .mobile-view640px {
-    margin-left: -15px;
-    padding-right: 120px !important;
-  }
-}
-
-@media screen and (max-width:392px) {
-  .mobile-view392px {
-    margin-left: -40px;
-  }
-}
-
 @media screen and (max-width:392px) {
   .mobile-view392px-home {
-    padding-right: 40px !important;
-    margin-left: -40px;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .mobile-view320px {
-    margin-left: -65px;
-    text-align: left;
+    padding-right: 20px !important;
   }
 }
 
