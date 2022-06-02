@@ -5,7 +5,6 @@ import {
   FaGithub,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import Logo from '../assets/dservice-logo.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -14,14 +13,9 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center bg-[#cacaca60] text-[#000000]'>
-      <Link to='home' smooth={true} duration={600}>
-        <div className='cursor-pointer'>
-          <img src={Logo} alt='Logo Image' style={{ width: '200px' }} />
-        </div>
-      </Link>
-
+      
       {/* menu */}
-      <ul className='font-bold hidden md:flex'>
+      <ul className='flex-1 justify-center font-bold hidden md:flex'>
         <Link to='home' smooth={true} duration={600}>
           <li className='group px-6 py-7 flex items-center hover:bg-[#67d8bf9d]'>
             Home

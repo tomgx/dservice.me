@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.de074e83.css",
-    "main.js": "/static/js/main.a68987d8.js",
+    "main.css": "/static/css/main.9c5ef9f4.css",
+    "main.js": "/static/js/main.386bf72f.js",
     "static/media/dservice-logo.png": "/static/media/dservice-logo.e5d1c5a9a5284758c374.png",
     "index.html": "/index.html",
-    "main.de074e83.css.map": "/static/css/main.de074e83.css.map",
-    "main.a68987d8.js.map": "/static/js/main.a68987d8.js.map"
+    "main.9c5ef9f4.css.map": "/static/css/main.9c5ef9f4.css.map",
+    "main.386bf72f.js.map": "/static/js/main.386bf72f.js.map"
   },
   "entrypoints": [
-    "static/css/main.de074e83.css",
-    "static/js/main.a68987d8.js"
+    "static/css/main.9c5ef9f4.css",
+    "static/js/main.386bf72f.js"
   ]
 }
