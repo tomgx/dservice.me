@@ -34,7 +34,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile menu icon */}
-      <div onClick={handleClick} className='mobile-view392px-home mobile-view320px md:hidden z-10 pr-5'>
+      <div onClick={handleClick} className='md:hidden z-10 w-full flex justify-center'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
